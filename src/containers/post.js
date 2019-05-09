@@ -5,6 +5,7 @@ class Post extends Component {
     render() {
         return (
             <div>
+                Post numéro {this.props.params.id}
                 <PostContent/>                
             </div>
         );
