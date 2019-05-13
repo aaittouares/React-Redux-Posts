@@ -9,6 +9,8 @@ export default function reducerPosts(state=[], action){
             return state.filter(post => 
                 post.id !== action.payload
             )
+        case AT_POSTS.CREATE: 
+            return [...state, action.payload]
         default:
          return state;
     }
