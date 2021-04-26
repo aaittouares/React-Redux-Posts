@@ -4,7 +4,7 @@ Exemple simple de Blog Post utilisant reduxForm et React router.
 
 Cet exemple utilise sa propre API simulée avec json-server.
 
-Pour installer se placer dans le projet et lancer : 
+Pour installer se placer dans le répertoir du projet et lancer : 
 
 ```
 > npm install
